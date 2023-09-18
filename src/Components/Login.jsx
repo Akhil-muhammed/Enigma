@@ -156,11 +156,7 @@ function Login() {
       </form>
     </div>
     <div className="order">
-    {/* {Object.keys(cartitems).map((itemId) => (
-          <li key={itemId}>
-          Quantity: {cartitems[itemId]}
-          </li>
-        ))} */}
+
         <div className="summary">
             <h1>Order Summary</h1>
         </div>
