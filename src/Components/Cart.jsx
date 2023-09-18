@@ -22,9 +22,10 @@ const Cart = () => {
         <div className="tottal-ttlamount">
           <span className="full-tottal-amount">
             Total Amount : ₹{totalamount}
-
           </span>
-          <Link to='/Login'><button className="checkout">Checkout</button></Link>
+          <Link to="/Login">
+            <button className="checkout">Checkout</button>
+          </Link>
         </div>
       ) : (
         <div className="emptyimg-div">

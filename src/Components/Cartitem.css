@@ -1,116 +1,93 @@
-/* .cart-big-div{
-    margin-top: 200px; 
-} */
+.main-morediv-cart {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.morediv-cart {
+  height: 300px;
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.morediv-cart:hover {
+  box-shadow: 2px 2px 5px 0px rgba(128, 128, 128, 0.295);
+  border-radius: 4px;
+}
+.cart-img-puma-cart {
+  height: 300px;
+  width: 38%;
+  background-color: rgba(128, 128, 128, 0.174);
+}
+.sub-cart-img-puma-cart {
+  width: 300px;
+  height: 260px;
+}
+.details-cart {
+  height: 300px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.cap-color {
+  color: gray;
+  font-size: 15px;
+}
+.-button {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.main-morediv-cart{
-    /* background-color: yellowgreen; */
-    height: 350px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    /* margin-top: 130px; */
-
+.pricebutton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.morediv-cart{
-    /* background-color: aquamarine; */
-    height: 300px;
-    width: 57%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.ttamount {
+  height: 40px;
+  width: 35%;
+  display: flex;
 }
-.morediv-cart:hover{
-    box-shadow: 2px 2px 5px 0px rgba(128, 128, 128, 0.295);
-    border-radius: 4px;
+.head-button {
+  height: 40px;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
 }
-.cart-img-puma-cart{
-    height: 300px;
-    width: 38%;
-    background-color: rgba(128, 128, 128, 0.174);
-
+.ttamountsub {
+  font-weight: 700;
 }
-.sub-cart-img-puma-cart{
-    width: 300px;
-    height: 260px;
+.amount {
+  color: red;
+  font-weight: 700;
 }
-.details-cart{
-    height: 300px;
-    width: 60%;
-    /* background-color: red; */
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-   
+.delete-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.cap-color{
-    color: gray;
-    font-size: 15px;
+.delete {
+  width: 20%;
+  border-radius: 9px;
+  color: red;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid red;
 }
-.-button{
-height: 25px;
-width: 25px;
-background-color: red;
-border-radius: 10px;
-border: none;
-outline: none;
-color: #fff;
-font-weight: 800;
-display: flex;
-justify-content: center;
-align-items: center;
-/* background-color: #fff;
-color: red; */
-
-}
-/* .-button:hover{
-    cursor: pointer;
-   background-color: red;
-   color: #fff;
-} */
-.pricebutton{
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.ttamount{
-    /* background-color: aquamarine; */
-    height: 40px;
-    width: 35%;
-    display: flex;
-
-}
-.head-button{
-    /* background-color: yellowgreen; */
-    height: 40px;
-    width: 20%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.ttamountsub{
-    font-weight: 700;
-
-}
-.amount{
-    color: red;
-    font-weight: 700;
-}
-.delete-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.delete{
-    width: 20%;
-    border-radius: 9px;
-    color: red;
-    outline: none;
-    background-color: #fff;
-    border: 2px solid red;
-}
-.delete:hover{
-    background-color: red;
-    color: #fff;
+.delete:hover {
+  background-color: red;
+  color: #fff;
 }

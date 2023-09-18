@@ -1,85 +1,73 @@
-.main-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.main-body1{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-    /* background-color: cadetblue; */
-    width: 85%;
-    height: 100%;
+.main-body1 {
+  width: 85%;
+  height: 100%;
 }
-.headline{
-    width: 100%;
-    height: 90px;
-    /* background-color: yellowgreen; */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
+.headline {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
 }
-.card-container{
-    /* background-color: yellow; */
-    width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.card-container {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.card-1{
-    /* background-color: violet; */
-    width: 15%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+.card-1 {
+  width: 15%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.card-1:hover{
-    box-shadow: 2px 2px 5px 0px rgba(128, 128, 128, 0.295);
-    border-radius: 4px;
-    cursor: pointer;
+.card-1:hover {
+  box-shadow: 2px 2px 5px 0px rgba(128, 128, 128, 0.295);
+  border-radius: 4px;
+  cursor: pointer;
 }
-.redPuma{
-    height: 150px;
-    width: 175px;
+.redPuma {
+  height: 150px;
+  width: 175px;
 }
-.adidas-black{
-    height: 130px;
-    width: 175px;
+.adidas-black {
+  height: 130px;
+  width: 175px;
 }
-.adidas-monkeyCap{
-    height: 190px;
-    width: 177px;
+.adidas-monkeyCap {
+  height: 190px;
+  width: 177px;
 }
-.BMW-monkeyCap{
-    height: 180px;
-    width: 180px;
+.BMW-monkeyCap {
+  height: 180px;
+  width: 180px;
 }
-.img-div{
-    height: 260px;
-    width: 100%;
-    /* background-color: #fff; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.img-div {
+  height: 260px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.pumatext{
-    font-weight:700;
-    font-size: 17px;
+.pumatext {
+  font-weight: 700;
+  font-size: 17px;
 }
-.puma-defi{
-    font-size: 15px;
+.puma-defi {
+  font-size: 15px;
 }
-.featurs{
-    width: 96%;
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-
+.featurs {
+  width: 96%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
 }
